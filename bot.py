@@ -87,6 +87,8 @@ async def SettingsBot(bot, cmd):
 		position_tag = "Top Right"
 	elif watermark_position == "5:5":
 		position_tag = "Top Left"
+	elif watermark_position == "5:5":
+		position_tag = "Centre Right"
 
 	watermark_size = await db.get_size(cmd.from_user.id)
 	if int(watermark_size) == 5:
