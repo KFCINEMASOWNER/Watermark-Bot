@@ -8,19 +8,19 @@ import os
 
 
 class Config(object):
-	BOT_TOKEN = os.environ.get("7316355297:AAFGBlWjMvZeaj1ojlvvoyvYbaZ1cpfozeU")
+	BOT_TOKEN = os.environ.get("7541410743:AAFBFnVNU3vkcUQwvCxf-rhlnHQSUJcv_wA")
 	API_ID = int(os.environ.get("25953006",))
 	API_HASH = os.environ.get("d5850aeef7dd3d01fe6b698c0a0d4be8")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
-	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+	LOG_CHANNEL = int(os.environ.get("-1002237896833"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
 	OWNER_ID = int(os.environ.get("OWNER_ID", 1981280736))
 	CAPTION = "By @AHToolsBot"
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "watermar_vieo_bot")
-	DATABASE_URL = os.environ.get("mongodb+srv://kfcinemas:ujwalu@kannadamovieofficial.1jr4puu.mongodb.net/?retryWrites=true&w=majority&appName=KannadaMovieofficial")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "KFfilter_bot")
+	DATABASE_URL = os.environ.get("mongodb+srv://kfcinemas:kfcinemas1@kfcinemas.fbd1x.mongodb.net/?retryWrites=true&w=majority&appName=kfcinemas")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
 	USAGE_WATERMARK_ADDER = """
